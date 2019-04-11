@@ -1,7 +1,7 @@
 def square_array(array)
   array.each do |number|
     square = number * number
-    array.push square
+    array.push(square)
   end
 end
 
@@ -10,15 +10,6 @@ end
 #   puts "Taking out #{apple}"
 #   apples_taken_out += 1
 # end
-#
-# numbers = [1,2,3]
-#
-# def square_array(array)
-#   array.collect {|numbers| numbers * numbers}
-# end
-#
-# square_array(numbers)
-# #USING COLLECT METHOD TO RETURN NEW ARRAY
 #
 # def square_array(array)
 #   new_arr = []
