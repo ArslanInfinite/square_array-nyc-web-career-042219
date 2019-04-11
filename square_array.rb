@@ -5,7 +5,7 @@ def square_array(array)
   end
 end
 
- 
+
 basket.each do |apple|
   puts "Taking out #{apple}"
   apples_taken_out += 1
@@ -15,15 +15,15 @@ numbers = [1,2,3]
 
 def square_array(array)
   array.collect {|numbers| numbers * numbers}
-end 
+end
 
 square_array(numbers)
-#USING COLLECT METHOD TO RETURN NEW ARRAY 
+#USING COLLECT METHOD TO RETURN NEW ARRAY
 
 def square_array(array)
-  new_arr = [] 
-  array.each do |numbers| 
-    square = numbers * numbers 
+  new_arr = []
+  array.each do |numbers|
+    square = numbers * numbers
     new_arr.push(square)
  end
   return new_arr
@@ -60,5 +60,3 @@ describe '#square_array' do
   end
 
 end
-
-
