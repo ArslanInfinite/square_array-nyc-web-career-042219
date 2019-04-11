@@ -2,6 +2,7 @@ def square_array(array)
   array.each do |number|
     square = number * number
   end
+  return square
 end
 
 
