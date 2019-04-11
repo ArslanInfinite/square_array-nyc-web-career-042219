@@ -1,33 +1,12 @@
 def square_array(array)
+  new_numbers = []
   array.each do |number|
     square = number * number
+    new_numbers.push(square)
   end
 end
 
 
-# basket.each do |apple|
-#   puts "Taking out #{apple}"
-#   apples_taken_out += 1
-# end
-#
-# def square_array(array)
-#   new_arr = []
-#   array.each do |numbers|
-#     square = numbers * numbers
-#     new_arr.push(square)
-#  end
-#   return new_arr
-# end
-#
-# square_array(numbers)
-#
-#
-#
-#
-#
-#
-#
-#
 # describe '#square_array' do
 #
 #   it 'does not call on collect/map or inject' do
