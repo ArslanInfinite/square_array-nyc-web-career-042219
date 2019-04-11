@@ -1,7 +1,7 @@
 def square_array(array)
   array.each do |number|
     square = number * number
-    new_numbers.push square
+    array.push square
   end
 end
 
@@ -10,16 +10,16 @@ end
 #   puts "Taking out #{apple}"
 #   apples_taken_out += 1
 # end
-#
+# 
 # numbers = [1,2,3]
-#
+# 
 # def square_array(array)
 #   array.collect {|numbers| numbers * numbers}
 # end
-#
+# 
 # square_array(numbers)
 # #USING COLLECT METHOD TO RETURN NEW ARRAY
-#
+# 
 # def square_array(array)
 #   new_arr = []
 #   array.each do |numbers|
@@ -28,18 +28,18 @@ end
 #  end
 #   return new_arr
 # end
-#
+# 
 # square_array(numbers)
-#
-#
-#
-#
-#
-#
-#
-#
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
 # describe '#square_array' do
-#
+# 
 #   it 'does not call on collect/map or inject' do
 #     numbers = [1,2,3]
 #     expect(numbers).to_not receive(:collect)
@@ -47,16 +47,16 @@ end
 #     expect(numbers).to_not receive(:inject)
 #     square_array(numbers)
 #   end
-#
+# 
 #   it 'calls on each' do
 #     numbers = [1,2,3]
 #     expect(numbers).to receive(:each)
 #     square_array(numbers)
 #   end
-#
+# 
 #   it 'should square the elements in an array' do
 #     expect(square_array([1,2,3])).to eq([1,4,9])
 #     expect(square_array([9,10,16,25])).to eq([81,100,256,625])
 #   end
-#
+# 
 # end
